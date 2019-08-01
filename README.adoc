@@ -1,0 +1,12 @@
+# J-Voting_ete_2019
+Projet J-Voting modifié au cours du stage, été 2019. Tuteur - Olivier Cailloux, stagiaire - Izabell Iskandar.
+
+
+29/07/2019
+
+Cloner le projet que Olivier Cailloux créera où j’aurais en plus l’accès à l’écriture.
+Créer une branche Izabell, se placer dessus.
+Créer un test unitaire à VoterTest nommé “TestToString” en s’inspirant en grande partie de test unitaire existant pour AlternativeTest (dans le dossier test du projet J-Voting).
+Essayer de l’améliorer.
+Faire un commit du fichier "TestToString" dans la branche Izabell.
+Push sur le serveur de Github dans le dépôt créé.

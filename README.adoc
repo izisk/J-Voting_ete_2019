@@ -1,4 +1,4 @@
-# J-Voting_stage_ete_2019
+ J-Voting_stage_ete_2019
 Projet J-Voting modifié au cours du stage, été 2019. Tuteur - Olivier Cailloux, stagiaire - Izabell Iskandar.
 
 
@@ -6,7 +6,18 @@ Projet J-Voting modifié au cours du stage, été 2019. Tuteur - Olivier Caillou
 
 Cloner le projet que Olivier Cailloux créera où j’aurais en plus l’accès à l’écriture.
 Créer une branche Izabell, se placer dessus.
-Créer un test unitaire à VoterTest nommé “TestToString” en s’inspirant en grande partie de test unitaire existant pour AlternativeTest (dans le dossier test du projet J-Voting).
+Ecrire le test unitaire nommé “TestToString” dans le fichier VoterTest en s’inspirant en grande partie de test unitaire existant dans le fichier AlternativeTest (dans le dossier test du projet J-Voting).
 Essayer de l’améliorer.
 Faire un commit du fichier "TestToString" dans la branche Izabell.
 Push sur le serveur de Github dans le dépôt créé.
+
+
+12/09/2019
+
+Créer un fichier ImmutablePreferenceImpl qui stockera n'importe quel préférence tel que Pref {(a,b)} <=> a ≥ b, Pref {(a,b)\(b,a)} <=> a > b.
+On donnera en argument à cette class les préférences sous forme de Graph <Alternative>. 
+Dans le constructeur la fermeture transitive du Graph donné sera calculée (en utilisant la bibliothèque GUAVA). Elle sera alors stocker dans ImmutableGraph.
+Ecrire 3 méthodes :
+- asGraph() qui renvoie l'ImmutableGraph ;
+- getAlternatives() qui renvoie les alternatives du ImmutableGraph dans l'ordre de l'insertion par l'utilisateur ;
+- getVoter() qui renvoie le Voter 0.
